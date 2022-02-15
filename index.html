@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="container d-flex h-100 w-100 p-3 mx-auto flex-column">
-    <header class="bg-dark p-3 pb-2 p-md-5 p-md-4 mt-auto border-5 border-success border-bottom mb-3 mb-md-0">
+    <header class="bg-dark p-3 pb-2 p-md-5 mt-auto border-5 border-success border-bottom mb-3 mb-md-0">
         <h1 class="display-1">
             <span class="fs-2">hey! i'm </span>darkhappy
         </h1>
@@ -24,7 +24,7 @@
     </header>
     <main class="row g-4 g-md-5">
         <div class="col-12 order-1 order-md-0">
-            <h3 class="fw-light d-md-none"><i aria-hidden="true" class="bi bi-person-badge"></i> Connections</h3>
+            <h3 class="fw-light d-md-none mb-3"><i aria-hidden="true" class="bi bi-person-badge"></i> Connections</h3>
             <div class="list-group list-group-horizontal-md">
                 <a class="list-group-item list-group-item-action" href="mailto:me@darkh.app"><i
                         aria-label="Email" class="bi bi-envelope-fill me-2 fs-5"></i>me@darkh.app</a>
@@ -32,6 +32,8 @@
                         aria-label="GitHub" class="bi bi-github me-2 fs-5"></i>darkhappy</a>
                 <a class="list-group-item list-group-item-action" href="https://discord.bio/p/darkhappy"><i
                         aria-label="Discord" class="bi bi-discord me-2 fs-5"></i>darkhappy#0001</a>
+            </div>
+            <div class="list-group list-group-horizontal-md">
                 <a class="list-group-item list-group-item-action" href="https://reddit.com/u/DarkHappy"><i
                         aria-label="Reddit" class="bi bi-reddit me-2 fs-5"></i>DarkHappy</a>
                 <a class="list-group-item list-group-item-action" href="https://spotify.com/user/darkhappy90"><i
@@ -41,13 +43,42 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-5 col-12 order-0 order-md-1">
-            <h3 class="fw-light mb-3"><i aria-hidden="true" class="bi bi-info-circle"></i> About me</h3>
+            <h3 class="d-none d-md-block fw-light mb-3"><i aria-hidden="true" class="bi bi-info-circle"></i> About me
+            </h3>
             <p class="card-text">I'm a College Student in Quebec that's currently taking Computer Sciences
                 classes. In my free time, I tend to code personal projects, play video games and watch anime.</p>
         </div>
         <div class="col-lg-9 col-md-7 col-12 order-2">
             <h3 class="fw-light mb-3"><i aria-hidden="true" class="bi bi-files-alt"></i> Projects</h3>
-            <code class="text-info">// TODO: list public projects</code>
+            <div class="row g-3">
+                <div class="col-12 col-lg-6">
+                    <div class="card border-success">
+                        <div class="card-header bg-success">
+                            <h5 class="fw-normal my-0">Active</h5>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">College Classes</h4>
+                            <h6 class="card-subtitle text-muted font-monospace mb-3">drkhapp-school/prog</h6>
+                            <p class="card-text">All my school assignments and projects that involves programming.</p>
+                            <a class="card-link" href="https://github.com/drkhapp-school/prog">Link to Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card border-secondary">
+                        <div class="card-header bg-secondary">
+                            <h5 class="fw-normal my-0">Inactive</h5>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Toontown Information Dashboard</h4>
+                            <h6 class="card-subtitle text-muted font-monospace mb-3">darkhappy/ttrinfo-app</h6>
+                            <p class="card-text">A modern electron application which shows you the current status of
+                                Toontown Rewritten.</p>
+                            <a class="card-link" href="https://github.com/darkhappy/ttrinfo-app">Link to Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="mt-auto text-center">
