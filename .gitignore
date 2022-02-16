@@ -39,7 +39,6 @@ jspm_packages
 
 ### Sass
 *.css.map
-css/styles.css
 
 ### IDEA
 .idea
