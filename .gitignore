@@ -44,5 +44,6 @@ css/styles.css
 ### IDEA
 .idea
 
-build
+dist
 .DS_STORE
+.parcel-cache
