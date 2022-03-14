@@ -1,0 +1,35 @@
+// Required
+@import "~bootstrap/scss/functions";
+
+// Variables
+@import '~bootswatch/dist/darkly/variables';
+
+// Required
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Components
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/list-group";
+
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/utilities/api";
+
+// Fonts
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+// Quirks
+html,
+body {
+  height: 100%;
+}
+
+
