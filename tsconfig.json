@@ -35,6 +35,9 @@
       "@modules/*": [
         "src/app/modules/*"
       ],
+      "@data/*": [
+        "src/app/data/*"
+      ],
     }
   },
   "angularCompilerOptions": {

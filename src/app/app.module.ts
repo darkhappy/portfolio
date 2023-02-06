@@ -7,6 +7,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import {CoreModule} from "@app/core.module";
 import {SharedModule} from "@shared/shared.module";
 import { ContentLayoutComponent } from './layout/content-layout/content-layout.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContentLayoutComponent } from './layout/content-layout/content-layout.c
     CoreModule,
     SharedModule,
 
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
