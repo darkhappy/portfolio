@@ -1,0 +1,15 @@
+<div class="bg-slate-700 p-8 flex flex-col h-full justify-between gap-3">
+  <div>
+    <h1 class="text-2xl font-bold">{{project.name}}</h1>
+    <div class="flex flex-row gap-2 mt-2">
+      <div *ngFor="let tag of project.tags" class="bg-slate-600 rounded-full px-2 py-1 text-xs text-white">
+        {{tag.name}}
+      </div>
+    </div>
+  </div>
+  <p>{{project.description}}</p>
+  <a class="text-white text-sm text-cyan-500" [href]="project.url" target="_blank">
+    <fa-icon [icon]="iconGithub"></fa-icon>
+    Repository
+  </a>
+</div>

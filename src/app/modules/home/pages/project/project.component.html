@@ -1,5 +1,5 @@
-<div class=" flex flex-col items-center w-full text-white md:gap-4">
-  <header class="w-full md:p-16">
+<div class="flex flex-col justify-center items-center text-white md:gap-4">
+  <header class="py-16 container">
     <button (click)="gotoHome()" class="text-lg text-cyan-500">Go Back</button>
     <h1 class="text-6xl font-extrabold mb-2 mt-1">
       Projects
@@ -8,4 +8,9 @@
       Here are some of the projects I have worked on.
     </p>
   </header>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-4 container">
+    <div *ngFor="let project of projects">
+      <app-project-card [project]="project"></app-project-card>
+    </div>
+  </div>
 </div>
