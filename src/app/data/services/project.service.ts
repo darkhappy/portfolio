@@ -29,29 +29,11 @@ export class ProjectService {
     },
     {
       name: 'Toontown Rewritten Dashboard',
-      description: "A modern electron application which shows you the current status of Toontown Rewritten.",
+      description: "An electron application which shows you the current status of Toontown Rewritten.",
       url: "https://github.com/darkhappy/ttrinfo-app",
       tags: [
         {name: 'Desktop'},
         {name: 'JavaScript / TypeScript'},
-      ]
-    },
-    {
-      name: 'CAI Chat',
-      description: "A simple ticket system for IT support made with Go.",
-      url: "https://github.com/darkhappy/caichat",
-      tags: [
-        {name: 'Web'},
-        {name: 'Go'},
-      ]
-    },
-    {
-      name: 'Bicolline',
-      description: "Microsoft Access database to manage information about players, guilds, and more.",
-      url: "https://github.com/darkhappy/bicolline",
-      tags: [
-        {name: 'Desktop'},
-        {name: 'SQL'},
       ]
     },
     {
@@ -81,15 +63,6 @@ export class ProjectService {
         {name: 'React'},
       ]
     },
-    {
-      name: "Hangman",
-      description: "A simple hangman game made in SwiftUI.",
-      url: "https://github.com/darkhappy/hangman",
-      tags: [
-        {name: 'Mobile'},
-        {name: 'Swift'},
-      ]
-    }
   ];
 
   constructor() {
